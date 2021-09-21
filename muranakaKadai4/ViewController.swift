@@ -10,9 +10,6 @@ import UIKit
 class ViewController: UIViewController {
     @IBOutlet private weak var numTextField: UILabel!
     private var num: Int = 0
-    override func viewDidLoad() {
-        super.viewDidLoad()
-    }
 
     @IBAction private func countButton(_ sender: Any) {
         num += 1
